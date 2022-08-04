@@ -7,6 +7,7 @@
     <title>Ecommerce AluraGeek</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="./css/products.css">
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
                     <h1>Promocion</h1>
                     <p>12 cuotas sin interes en productos seleccionados</p>
                     <a href="">
-                        <button>Ver Articulos</button>
+                        <button class="bt-banner">Ver Articulos</button>
                     </a>
                 </div>
             </div>
@@ -126,50 +127,81 @@
                 </div>
             </section>
 
-            <section class="categorie">
+            <section class="categorie" id="console">
                 <div class="text-categorie">
-                    <div class="products">
-                        <div class="product-card">
-                            <img src="./assets/varios_products (1).png">
-                            <h3>Nombre Producto</h3>
-                            <p>$60.00</p>
-                            <a href="">Ver Producto</a>
-                        </div>   
-                        <div class="product-card">
-                            <img src="./assets/varios_products (2).png">
-                            <h3>Nombre Producto</h3>
-                            <p>$60.00</p>
-                            <a href="">Ver Producto</a>
-                        </div>   
-                        <div class="product-card">
-                            <img src="./assets/varios_products (3).png">
-                            <h3>Nombre Producto</h3>
-                            <p>$60.00</p>
-                            <a href="">Ver Producto</a>
-                        </div>   
-                        <div class="product-card">
-                            <img src="./assets/varios_products (4).png">
-                            <h3>Nombre Producto</h3>
-                            <p>$60.00</p>
-                            <a href="">Ver Producto</a>
-                        </div>   
-                        <div class="product-card">
-                            <img src="./assets/varios_products (5).png">
-                            <h3>Nombre Producto</h3>
-                            <p>$60.00</p>
-                            <a href="">Ver Producto</a>
-                        </div>   
-                        <div class="product-card">
-                            <img src="./assets/varios_products (6).png">
-                            <h3>Nombre Producto</h3>
-                            <p>$60.00</p>
-                            <a href="">Ver Producto</a>
-                        </div>   
-
+                    <h2>Varios</h2>
+                    <a href="">Ver todo <img src="" alt=""></a>
+                </div>
+                <div class="products">
+                    <div class="product-card">
+                        <img src="./assets/varios_products (1).png">
+                        <h3>Nombre Producto</h3>
+                        <p>$60.00</p>
+                        <a href="">Ver Producto</a>
                     </div>
+                    <div class="product-card">
+                        <img src="./assets/varios_products (2).png">
+                        <h3>Nombre Producto</h3>
+                        <p>$60.00</p>
+                        <a href="">Ver Producto</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="./assets/varios_products (3).png">
+                        <h3>Nombre Producto</h3>
+                        <p>$60.00</p>
+                        <a href="">Ver Producto</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="./assets/varios_products (4).png">
+                        <h3>Nombre Producto</h3>
+                        <p>$60.00</p>
+                        <a href="">Ver Producto</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="./assets/varios_products (5).png">
+                        <h3>Nombre Producto</h3>
+                        <p>$60.00</p>
+                        <a href="">Ver Producto</a>
+                    </div>    
+                    <div class="product-card">
+                        <img src="./assets/varios_products (6).png">
+                        <h3>Nombre Producto</h3>
+                        <p>$60.00</p>
+                        <a href="">Ver Producto</a>
+                    </div>    
                 </div>
             </section>
+
         </section>
+
+        <footer class="footer-main">
+            <div class="footer-container">
+                <ul class="footer-left">
+                    <li><img src="./assets/icono-web.png" alt=""></li>
+                </ul>
+
+                <ul class="footer-center">
+                    <li>Quienes Somos</li>
+                    <li>Politica de Privacidad</li>
+                    <li>Nuestras Tiendas</li>
+                    <li>Quiero mi Franquicia</li>
+                    <li>Anuncie Aqui</li>
+                </ul>
+
+                <form class="footer-form" action="#">
+					
+						<h3>Hable con nosotros</h3>
+                        <input type="text" class="input-name" placeholder="Nombre" id="">
+						<input class="input-msg" type="text" placeholder="Escribe tu mensaje">
+						<button class="bt-send" type="submit">Enviar Mensaje</button>
+						
+					
+				</form>
+
+
+            </div>
+        </footer>
+
     </main>
 
 

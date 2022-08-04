@@ -53,6 +53,13 @@ header {
     outline: none;
 }
 
+.bt-search {
+    margin-left: -50px;
+    border: none;
+    opacity: 50;
+    background-color: var(--bg-white);
+}
+
 .login {
     width: 9rem;
     height: 2.5rem;
@@ -63,8 +70,136 @@ header {
 }
 
 .bt-search-login {
+    display: none;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/banner.png");
+    background-size: cover;
+    background-position: center;
+    position: static;
+    justify-content: center;
+}
+
+.banner-text  h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--font-banner);
+    margin: 80px 0px 30px 120px
+}
+
+.banner-text  p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--font-banner);
+    margin: 50px 0px 0px 120px;
+    text-align: left;   
+}
+
+.bt-banner {
+    width: 6.8rem;
+    height: 3.1rem;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--font-product-blue);
+    color: white;
+    margin: 50px 0px 80px 120px;
+    border: none;
+    
+
 
 }
 
 
+@media (min-width:320px) and (max-width:768px){
+    .search {
+        margin-right: 10%;
+    }
 
+    .search-field {
+        display: none;
+    }
+
+    .banner-text  h1 {
+        font-size: 22px;
+        margin-left: 1rem;
+
+    }
+    
+    .banner-text  p {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+
+    .login {
+        width: 6rem;
+
+    }
+
+    .bt-search {
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .bt-search-login {
+        display: inline;
+        background-color: white;
+        border: none;
+        margin-left: 0.62rem;
+    }
+
+    .main-container {
+        width: 90%;
+    }
+
+    .header-logo {
+        width: 7.5rem;
+    }
+}
+
+.footer-main{    
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+    margin-top: 3.5rem; 
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    background: var(--font-nav);
+}
+
+.footer-container {
+    width: 85%;
+    display: flex;    
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;      
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
