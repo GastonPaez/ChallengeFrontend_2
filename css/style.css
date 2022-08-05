@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
 :root {
     --bg-white : #f5f5f5;
     --font-nav: #a2a2a2;
@@ -106,7 +112,7 @@ header {
 }
 
 .bt-banner {
-    width: 6.8rem;
+    width: 8rem;
     height: 3.1rem;
     font-size: 16px;
     font-weight: 400;
@@ -177,9 +183,9 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;   
-    margin-top: 3.5rem; 
+    padding-top: 3.5rem; 
     padding-top: 3.5rem;    
-    background: var(--font-nav);
+    background: #EAF2FD;
 
 }
 
@@ -216,12 +222,14 @@ header {
     height: 56px;
     border-radius: 5px;
     border:none;
+    padding-left: 10px;    
 }
 
 .input-msg {
     height: 82px;
     border-radius: 5px;
     border: none;
+    padding-left: 10px;
 }
 
 .bt-send {
@@ -238,6 +246,6 @@ header {
     height: 50px;
     width: 100%;
     padding: 32px;
-    background: var(--bg-white);    
+    background: white;    
     text-align: center;
 }
