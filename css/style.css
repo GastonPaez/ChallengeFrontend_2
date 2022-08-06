@@ -249,3 +249,12 @@ header {
     background: white;    
     text-align: center;
 }
+
+.menu-admin {
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 16px;
+    color: var(--font-product-blue);
+    background-color: #fff;
+    border: 2px solid var(--font-product-blue);
+}
